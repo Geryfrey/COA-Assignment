@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">  <!-- Link to external stylesheet -->
+
+</head>
+
+<body>
+ 
+    <div class="container"> 
+    
+        <!-- The div section for the first image with its content -->
+
+        <div class="img-gallery">
+            <img src="images/fennec.jpg" />
+
+            <div class="text-block">
+
+                <h2>FENNEC FOX</h2>
+                <p> India </p>
+                    <button class="button">Know more &rarr;</button></a>
+            </div>
+        </div>
+
+         <!-- The div section for the second image with its content -->
+
+        <div class="img-gallery">
+
+            <img src="images/whale.jpg" />
+
+            <div class="text-block">
+                <h2>HUMPBACK WHALE</h2>
+                <p> South Africa</p>
+                    <button class="button">Know more &rarr;</button>
+
+            </div>
+        </div>
+
+        <!-- The div section for the third image with its content -->
+
+        <div class="img-gallery">
+
+            <img src="images/baboon.jpg" />
+
+            <div class="text-block">
+                <h2 style="width:250px">COMMON BROWN BABOON</h2>
+                <p> South Africa </p>
+                    <button class="button">Know more &rarr;</button>
+
+            </div>
+        </div>
+
+        <!-- The div section for the fourth image with its content -->
+
+
+        <div class="img-gallery">
+
+            <img src="images/deer.jpg" />
+
+            <div class="text-block">
+                <h2>SPOTTED DEER</h2>
+                <p> Amazon </p>
+                    <button class="button">Know more &rarr;</button>
+
+
+            </div>
+        </div>
+    </div>
+
+<!-- Modal for displaying full-size image and thumbnails -->
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="fullsizeImage">
+        <div id="caption"></div>
+        <div id="thumbnails"></div>
+    </div>
+
+    <script src="js/script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+
+</html>
