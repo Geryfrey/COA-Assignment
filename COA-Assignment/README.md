@@ -64,7 +64,7 @@ It can be viewed on both the desktop, tablet and mobile screens.
 1. *Clone the repository*:
 
         sh
-        git clone https://github.com/Jeph2001/COA-TASKFORCE-CHALLENGE.git
+        git clone https://github.com/Geryfrey/COA-Assignment.git
         cd Challenges
         
 2. *Open the applications in your preferred code editor*.
